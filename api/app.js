@@ -45,7 +45,7 @@ app.use((err, req, res, next) => {
 });
 
 // Set our port.
-app.set('port', process.env.PORT || 5001);
+app.set('port', process.env.PORT || 5000);
 
 // Start listening on our port.
 const server = app.listen(app.get('port'), () => {
